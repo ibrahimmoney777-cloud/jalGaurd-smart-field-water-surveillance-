@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#071b24" />
+  <meta name="description" content="JalGuard is a proposed portable field-screening and digital surveillance system for emerging contaminants in drinking water." />
+  <title>JalGuard — Smart Field Water Surveillance</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <header class="site-header" id="top">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="JalGuard home">
+        <span class="brand-mark"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 3C18 13 8 22 8 31a16 16 0 0 0 32 0C40 22 30 13 24 3Z"/><path d="M16 31c1 5 4 8 9 9" class="brand-wave"/></svg></span>
+        <span class="brand-copy"><strong>JalGuard</strong><small>SMART WATER SURVEILLANCE</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#challenge">The challenge</a><a href="#system">Our system</a><a href="#workflow">Workflow</a><a href="#case-study">Case study</a><a href="#prototype">Prototype</a><a href="#team">Team</a><a href="#mentors">Mentors</a>
+        <a class="nav-cta" href="#resources">Explore project <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-dark" id="home">
+      <div class="hero-grid-bg"></div><div class="orb orb-one"></div><div class="orb orb-two"></div>
+      <div class="wrap hero-layout">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="pulse-dot"></span> SMART INDIA HACKATHON 2026 <i></i> SIH26252</div>
+          <h1>See beyond<br>the <span>surface.</span></h1>
+          <p class="hero-lede">A portable field-screening concept designed to help monitor emerging contaminants in drinking water—and connect every sample to a bigger picture.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#system">Explore JalGuard <span>↘</span></a><a class="btn btn-ghost" href="assets/downloads/JalGuard-SIH26252-Presentation.pptx" download>View project deck <span>↓</span></a></div>
+          <div class="hero-meta"><span><b>01</b> FIELD SCREENING</span><span><b>02</b> SOURCE TRACEABILITY</span><span><b>03</b> DATA-LED FOLLOW-UP</span></div>
+        </div>
+        <div class="hero-visual reveal delay-2" aria-label="JalGuard conceptual device illustration">
+          <div class="visual-label label-top"><span class="tiny-dot"></span> FIELD DEVICE CONCEPT <span class="label-line"></span></div>
+          <div class="device-scene">
+            <div class="device-shadow"></div>
+            <div class="device">
+              <div class="device-top"><div class="device-screw"></div><div class="device-screw"></div><div class="device-screw"></div><div class="device-screw"></div></div>
+              <div class="device-brand"><span class="mini-drop">◆</span> JALGUARD <small>WATER INTELLIGENCE</small></div>
+              <div class="device-screen"><div class="screen-head"><span>FIELD SCAN</span><span class="screen-status">● READY</span></div><div class="screen-wave"><svg viewBox="0 0 240 70" preserveAspectRatio="none"><path d="M0 42 C18 42 20 18 37 26 S56 58 72 38 90 18 106 37 128 54 145 29 166 20 180 38 201 50 216 30 230 25 240 33"/></svg></div><div class="screen-stats"><span><small>SAMPLE ID</small><b>JG–0248</b></span><span><small>STATUS</small><b class="status-review">REVIEW</b></span></div></div>
+              <div class="device-lights"><i></i><i></i><i></i><span>OPTICAL MODULE</span></div><div class="device-port"></div><div class="device-foot"></div>
+            </div>
+            <div class="float-card float-card-a"><span class="float-icon">⌖</span><div><small>SOURCE RECORD</small><strong>GPS + Timestamp</strong></div><span class="float-check">✓</span></div>
+            <div class="float-card float-card-b"><span class="scan-icon">◉</span><div><small>SCREENING MODE</small><strong>Optical + AI-assisted</strong></div></div>
+            <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+          </div>
+          <div class="visual-caption"><span>CONCEPT VISUALIZATION</span><span>Prototype under development ↗</span></div>
+        </div>
+      </div>
+      <div class="wrap hero-bottom"><span>DETECT <i>→</i> LOCATE <i>→</i> VERIFY <i>→</i> ACT</span><span class="hero-bottom-note">Built for a smarter water-monitoring workflow</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Project focus"><div class="ticker-track"><span>MICROPLASTICS</span><b>✳</b><span>PFAS SCREENING</span><b>✳</b><span>FIELD DATA</span><b>✳</b><span>QUALITY CONTROL</span><b>✳</b><span>MICROPLASTICS</span><b>✳</b><span>PFAS SCREENING</span><b>✳</b><span>FIELD DATA</span><b>✳</b><span>QUALITY CONTROL</span><b>✳</b></div></section>
+
+    <section class="section challenge-section" id="challenge">
+      <div class="wrap">
+        <div class="section-heading split-heading reveal"><div><span class="section-kicker">01 / THE CHALLENGE</span><h2>Water risks don't<br>wait for a <em>lab report.</em></h2></div><p>Emerging contaminants call for specialised methods. Meanwhile, field teams need practical ways to screen, record and prioritise samples—especially across many water sources.</p></div>
+        <div class="challenge-grid">
+          <article class="challenge-card reveal"><span class="card-number">01</span><div class="line-icon">⌕</div><h3>Hard to screen</h3><p>Microplastics and selected PFAS require different preparation and detection approaches.</p><span class="card-bottom">COMPLEX MEASUREMENT</span></article>
+          <article class="challenge-card reveal delay-1"><span class="card-number">02</span><div class="line-icon">⌁</div><h3>Lab dependency</h3><p>Reference analysis may require specialised equipment, trained operators and controlled workflows.</p><span class="card-bottom">TIME + EQUIPMENT</span></article>
+          <article class="challenge-card reveal delay-2"><span class="card-number">03</span><div class="line-icon">⌖</div><h3>Scattered records</h3><p>A result becomes more useful when it is linked to a sample ID, location, date and history.</p><span class="card-bottom">LIMITED TRACEABILITY</span></article>
+          <article class="challenge-card reveal delay-3"><span class="card-number">04</span><div class="line-icon">↗</div><h3>Slow prioritisation</h3><p>Field screening could help teams decide which observations need repeat testing or lab confirmation.</p><span class="card-bottom">NEED FOR FOLLOW-UP</span></article>
+        </div>
+        <div class="note-band reveal"><span class="note-mark">i</span><p><strong>Our principle:</strong> screening supports decisions—it does not replace validated laboratory confirmation or certify water as safe.</p></div>
+      </div>
+    </section>
+
+    <section class="section system-section section-dark" id="system">
+      <div class="wrap">
+        <div class="section-heading reveal"><span class="section-kicker">02 / THE JALGUARD APPROACH</span><h2>One platform.<br><em>Two distinct</em> detection paths.</h2><p class="heading-description">JalGuard brings sample handling, preliminary measurement and digital records into a modular field-surveillance concept.</p></div>
+        <div class="module-grid">
+          <article class="module-card micro-card reveal"><div class="module-top"><span class="module-tag">MODULE A</span><span class="module-symbol">◉</span></div><div class="module-illustration micro-illustration"><div class="filter-ring ring-one"></div><div class="filter-ring ring-two"></div><div class="particle p1"></div><div class="particle p2"></div><div class="particle p3"></div><div class="particle p4"></div><div class="particle p5"></div><div class="camera-lens"></div><div class="light-beam"></div></div><h3>Microplastic screening</h3><p>Capture particles through filtration, image them under controlled illumination, then use computer vision to flag possible candidates.</p><div class="tag-list"><span>Fine filtration</span><span>LED / optional UV</span><span>Camera + OpenCV</span><span>AI-assisted analysis</span></div><div class="module-foot"><span>OUTPUT</span><strong>Candidate count · Approx. size · Confidence</strong></div></article>
+          <article class="module-card pfas-card reveal delay-1"><div class="module-top"><span class="module-tag">MODULE B · PROPOSED</span><span class="module-symbol">⌬</span></div><div class="module-illustration pfas-illustration"><div class="molecule m1">F</div><div class="molecule m2">F</div><div class="molecule m3">F</div><div class="molecule m4">C</div><div class="molecule m5">C</div><div class="molecule m6">O</div><div class="molecule-bond b1"></div><div class="molecule-bond b2"></div><div class="molecule-bond b3"></div><div class="signal-line"></div><div class="signal-dot"></div></div><h3>Target-specific PFAS sensing</h3><p>Investigate a suitable sensing method for selected compounds—initially PFOA and PFOS—with calibration and laboratory comparison.</p><div class="tag-list"><span>Candidate cartridge</span><span>Signal reader</span><span>Calibration</span><span>Lab validation</span></div><div class="module-foot"><span>STATUS</span><strong>Feasibility research required</strong></div></article>
+        </div>
+        <div class="system-footnote reveal"><span class="footnote-icon">↗</span><p><strong>Why separate the modules?</strong> Microplastics are particles; PFAS are chemical contaminants. A camera workflow cannot independently confirm PFAS, and optical appearance alone cannot prove a particle's polymer identity.</p></div>
+      </div>
+    </section>
+
+    <section class="section workflow-section" id="workflow">
+      <div class="wrap">
+        <div class="section-heading split-heading reveal"><div><span class="section-kicker">03 / FROM SAMPLE TO SIGNAL</span><h2>A traceable path<br>from <em>water to action.</em></h2></div><p>Each screening event should preserve the context around a result—how the sample was handled, what checks it passed and whether further confirmation is needed.</p></div>
+        <div class="workflow-layout"><div class="workflow-list">
+          <div class="workflow-step active reveal"><span class="step-index">01</span><span class="step-icon">♧</span><div><h3>Collect & identify</h3><p>Assign a sample ID and record source, location and collection time.</p></div><span class="step-arrow">↘</span></div>
+          <div class="workflow-step reveal"><span class="step-index">02</span><span class="step-icon">▤</span><div><h3>Prepare the sample</h3><p>Use a controlled workflow: filtration for particle screening or a selected PFAS preparation method.</p></div><span class="step-arrow">↘</span></div>
+          <div class="workflow-step reveal"><span class="step-index">03</span><span class="step-icon">◎</span><div><h3>Measure & analyse</h3><p>Capture optical images or read the selected sensing signal; apply the appropriate analysis pipeline.</p></div><span class="step-arrow">↘</span></div>
+          <div class="workflow-step reveal"><span class="step-index">04</span><span class="step-icon">✓</span><div><h3>Check quality</h3><p>Review calibration, blanks, image quality and other method-specific quality checks.</p></div><span class="step-arrow">↘</span></div>
+          <div class="workflow-step reveal"><span class="step-index">05</span><span class="step-icon">⌖</span><div><h3>Record & follow up</h3><p>Store the result with its confidence, limitations, GPS, timestamp and confirmation status.</p></div><span class="step-arrow">↗</span></div>
+        </div><aside class="workflow-panel reveal delay-2"><div class="panel-header"><span>JALGUARD / SAMPLE RECORD</span><span class="panel-live"><i></i> DEMO VIEW</span></div><div class="sample-id"><small>SAMPLE IDENTIFIER</small><strong>JG–0248</strong><span class="sample-chip">FIELD SCREEN</span></div><div class="map-visual"><div class="map-grid"></div><svg viewBox="0 0 300 150" aria-label="Illustrative map view"><path d="M-10 35 Q40 10 75 42 T150 40 T220 20 T320 45 M-20 110 Q45 80 90 105 T170 95 T240 120 T330 90 M55 -10 Q70 35 60 70 T85 160 M185 -10 Q165 35 195 70 T180 160" fill="none" stroke="currentColor" stroke-width="1.3" opacity=".35"/><path d="M10 80 L65 62 L108 76 L150 47 L205 58 L278 28" fill="none" stroke="#66e1c4" stroke-width="2" stroke-dasharray="4 5"/><circle cx="150" cy="47" r="14" fill="#66e1c4" opacity=".18"/><circle cx="150" cy="47" r="5" fill="#66e1c4"/><circle cx="65" cy="62" r="3" fill="#c4f1e8"/><circle cx="205" cy="58" r="3" fill="#c4f1e8"/></svg><span class="map-label">SOURCE LOCATION · ILLUSTRATIVE</span></div><div class="record-rows"><div><span>Method</span><strong>Optical screening</strong></div><div><span>Quality check</span><strong class="amber-text">Pending validation</strong></div><div><span>Result status</span><strong>Preliminary observation</strong></div></div><div class="panel-disclaimer">Illustrative interface only — not a live measurement or validated result.</div></aside></div>
+      </div>
+    </section>
+
+    <section class="section data-section">
+      <div class="wrap data-layout"><div class="data-copy reveal"><span class="section-kicker">04 / DIGITAL SURVEILLANCE</span><h2>Don't just collect results.<br><em>Build a history.</em></h2><p>JalGuard's digital layer is designed to connect individual screenings with source-level context. Over time, validated records may help teams spot repeat observations and prioritise follow-up.</p><ul class="check-list"><li><span>✓</span> QR or unique source ID</li><li><span>✓</span> GPS and timestamp capture</li><li><span>✓</span> Offline-first recordkeeping concept</li><li><span>✓</span> Review history and optional cloud sync</li><li><span>✓</span> Risk-based follow-up—not automatic safety certification</li></ul><a class="text-link" href="#resources">Read the project case study <span>↗</span></a></div><div class="data-visual reveal delay-1"><div class="data-window"><div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>SOURCE MONITOR / CONCEPT</span><span class="window-menu">···</span></div><div class="window-content"><div class="window-title"><div><small>WATER SOURCE OVERVIEW</small><h3>Monitoring snapshot</h3></div><span class="period-pill">Illustrative</span></div><div class="metric-grid"><div class="metric"><span>Sample records</span><strong>0248</strong><small>Unique sample ID</small></div><div class="metric"><span>Data quality</span><strong class="mint-text">QC</strong><small>Check each record</small></div></div><div class="chart-card"><div class="chart-title"><span>Observation history</span><span>Example only</span></div><div class="bar-chart"><i style="height:32%"></i><i style="height:48%"></i><i style="height:40%"></i><i style="height:63%"></i><i style="height:52%"></i><i style="height:76%"></i><i style="height:58%"></i><i style="height:88%"></i><i style="height:70%"></i><i style="height:94%"></i><i style="height:65%"></i><i style="height:80%"></i></div><div class="chart-axis"><span>EARLIER</span><span>RECENT</span></div></div><div class="window-bottom"><span><i></i> Records linked to source</span><span>View sample log ↗</span></div></div></div><div class="visual-caption dark-caption"><span>CONCEPT DASHBOARD</span><span>No live data shown</span></div></div></div>
+    </section>
+
+
+    <section class="section case-study-section" id="case-study">
+      <div class="wrap">
+        <div class="section-heading split-heading reveal">
+          <div><span class="section-kicker">05 / CASE STUDY</span><h2>Research behind<br><em>the concept.</em></h2></div>
+          <p>Explore the case-study visuals supplied with the project. They provide supporting context for the problem, research and proposed direction. Open any image to view it larger, or download the full case-study document below.</p>
+        </div>
+        <div class="case-study-grid">
+          <button class="case-study-image case-study-feature reveal" data-lightbox="assets/case-study/case-1.jpeg" aria-label="Open case study image 1"><img src="assets/case-study/case-1.jpeg" alt="JalGuard case study visual 1" loading="lazy"><span><small>CASE STUDY / 01</small><strong>Research context ↗</strong></span></button>
+          <button class="case-study-image reveal delay-1" data-lightbox="assets/case-study/case-2.jpeg" aria-label="Open case study image 2"><img src="assets/case-study/case-2.jpeg" alt="JalGuard case study visual 2" loading="lazy"><span><small>CASE STUDY / 02</small><strong>Problem framing ↗</strong></span></button>
+          <button class="case-study-image reveal delay-2" data-lightbox="assets/case-study/case-3.jpeg" aria-label="Open case study image 3"><img src="assets/case-study/case-3.jpeg" alt="JalGuard case study visual 3" loading="lazy"><span><small>CASE STUDY / 03</small><strong>Existing approaches ↗</strong></span></button>
+          <button class="case-study-image reveal" data-lightbox="assets/case-study/case-4.jpeg" aria-label="Open case study image 4"><img src="assets/case-study/case-4.jpeg" alt="JalGuard case study visual 4" loading="lazy"><span><small>CASE STUDY / 04</small><strong>Technical considerations ↗</strong></span></button>
+          <button class="case-study-image reveal delay-1" data-lightbox="assets/case-study/case-5.jpeg" aria-label="Open case study image 5"><img src="assets/case-study/case-5.jpeg" alt="JalGuard case study visual 5" loading="lazy"><span><small>CASE STUDY / 05</small><strong>Limitations and gaps ↗</strong></span></button>
+          <button class="case-study-image reveal delay-2" data-lightbox="assets/case-study/case-6.jpeg" aria-label="Open case study image 6"><img src="assets/case-study/case-6.jpeg" alt="JalGuard case study visual 6" loading="lazy"><span><small>CASE STUDY / 06</small><strong>Proposed direction ↗</strong></span></button>
+        </div>
+        <div class="case-study-download reveal"><div><span class="download-symbol">▧</span><div><strong>Read the complete case study</strong><p>Open the original team document for the full supporting material.</p></div></div><a class="btn btn-primary" href="assets/downloads/JalGuard-Case-Study.docx" download>Download case study <span>↓</span></a></div>
+      </div>
+    </section>
+
+    <section class="section prototype-section" id="prototype">
+      <div class="wrap"><div class="section-heading split-heading reveal"><div><span class="section-kicker">05 / BUILDING THE CONCEPT</span><h2>From idea to<br><em>working prototype.</em></h2></div><p>Explore the project materials and prototype references provided by the team. JalGuard remains under development; performance claims will depend on documented validation.</p></div>
+        <div class="gallery-grid">
+          <button class="gallery-item gallery-large reveal" data-lightbox="assets/prototype/prototype-1.jpeg" aria-label="Open prototype image"><img src="assets/prototype/prototype-1.jpeg" alt="JalGuard prototype reference 1" loading="lazy"><span class="gallery-overlay"><small>PROTOTYPE / 01</small><strong>Device concept <b>↗</b></strong></span></button>
+          <button class="gallery-item reveal delay-1" data-lightbox="assets/prototype/prototype-2.jpeg" aria-label="Open prototype image"><img src="assets/prototype/prototype-2.jpeg" alt="JalGuard prototype reference 2" loading="lazy"><span class="gallery-overlay"><small>PROTOTYPE / 02</small><strong>Design reference <b>↗</b></strong></span></button>
+          <button class="gallery-item reveal delay-2" data-lightbox="assets/prototype/prototype-3.jpeg" aria-label="Open prototype image"><img src="assets/prototype/prototype-3.jpeg" alt="JalGuard prototype reference 3" loading="lazy"><span class="gallery-overlay"><small>PROTOTYPE / 03</small><strong>Project material <b>↗</b></strong></span></button>
+        </div>
+        <div class="prototype-note"><span>↗</span><p>These images are team-provided reference materials. They are not presented as evidence of validated detection accuracy.</p></div>
+      </div>
+    </section>
+
+    <section class="section impact-section section-dark" id="impact"><div class="wrap"><div class="section-heading reveal"><span class="section-kicker">06 / WHY IT MATTERS</span><h2>Screen in the field.<br><em>Prioritise with context.</em></h2><p class="heading-description">A connected workflow can make it easier to organise monitoring efforts and decide which samples need closer investigation.</p></div><div class="impact-grid"><article class="impact-item reveal"><span class="impact-number">01</span><div class="impact-icon">⌖</div><h3>Source-level traceability</h3><p>Keep observations linked to a specific water source, collection date and method.</p></article><article class="impact-item reveal delay-1"><span class="impact-number">02</span><div class="impact-icon">↗</div><h3>Faster prioritisation</h3><p>Help identify samples that may need repeat screening or laboratory confirmation.</p></article><article class="impact-item reveal delay-2"><span class="impact-number">03</span><div class="impact-icon">⌁</div><h3>Repeatable monitoring</h3><p>Support comparisons across sources and time when records are consistent and validated.</p></article><article class="impact-item reveal delay-3"><span class="impact-number">04</span><div class="impact-icon">◎</div><h3>Modular development</h3><p>Develop the optical and PFAS pathways separately before integrating them into one platform.</p></article></div><div class="impact-quote reveal"><span>“</span><p>Better water surveillance starts with more than a reading. It starts with a record you can trust.</p><small>JALGUARD / DESIGN PRINCIPLE</small></div></div></section>
+
+    <section class="section team-section" id="team"><div class="wrap"><div class="section-heading split-heading reveal"><div><span class="section-kicker">07 / THE PEOPLE</span><h2>Meet the team<br>behind <em>JalGuard.</em></h2></div><p>Team AQUARENEW is exploring a practical approach to field screening, digital records and responsible validation of emerging water contaminants.</p></div><div class="team-grid">
+      <article class="team-card reveal"><div class="team-photo"><img src="assets/team/aadarsh.jpg" alt="Aadarsh Kumar Chaudhary" loading="lazy"><span class="team-badge">TEAM LEADER</span></div><div class="team-info"><h3>Aadarsh Kumar Chaudhary</h3><p>Team Leader · B.E. CSE (AI/ML)</p></div></article>
+      <article class="team-card reveal delay-1"><div class="team-photo"><img src="assets/team/ibrahim.jpg" alt="Ibrahim Abdelmagid" loading="lazy"></div><div class="team-info"><h3>Ibrahim Abdelmagid</h3><p>Team Member · Cyber Security</p></div></article>
+      <article class="team-card reveal delay-2"><div class="team-photo"><img src="assets/team/bhavika.jpg" alt="Bhavika K" loading="lazy"></div><div class="team-info"><h3>Bhavika K</h3><p>Team Member</p></div></article>
+      <article class="team-card reveal"><div class="team-photo"><img src="assets/team/mahesh.jpg" alt="Mahesh Rana" loading="lazy"></div><div class="team-info"><h3>Mahesh Rana</h3><p>Team Member</p></div></article>
+      <article class="team-card reveal delay-1"><div class="team-photo"><img src="assets/team/krithika.jpg" alt="Krithika S" loading="lazy"></div><div class="team-info"><h3>Krithika S</h3><p>Team Member</p></div></article>
+      <article class="team-card reveal delay-2"><div class="team-photo"><img src="assets/team/saugat.jpg" alt="Saugat Yadav" loading="lazy"></div><div class="team-info"><h3>Saugat Yadav</h3><p>Team Member</p></div></article>
+    </div><div class="team-affiliation"><span class="affiliation-mark">A</span><div><strong>TEAM AQUARENEW</strong><small>SMART INDIA HACKATHON 2026 · SIH26252</small></div><span class="affiliation-line"></span><span class="affiliation-tag">CLEAN & GREEN TECHNOLOGY</span></div></div></section>
+
+
+    <section class="section mentors-section" id="mentors">
+      <div class="wrap">
+        <div class="section-heading split-heading reveal">
+          <div><span class="section-kicker">08 / GUIDANCE & SUPPORT</span><h2>Learning with<br><em>mentor guidance.</em></h2></div>
+          <p>We acknowledge the mentors whose guidance supports the team's learning and project development. The profiles below use the mentor photographs included in the project files.</p>
+        </div>
+        <div class="mentor-grid">
+          <article class="mentor-card reveal"><div class="mentor-photo"><img src="assets/mentors/er-gajendran-parthasarathi.jpg" alt="Er. Gajendran Parthasarathi" loading="lazy"><span class="mentor-label">PROJECT MENTOR</span></div><div class="mentor-info"><span class="mentor-index">MENTOR / 01</span><h3>Er. Gajendran Parthasarathi</h3><p>Guidance and support for the team's project journey.</p></div></article>
+          <article class="mentor-card reveal delay-1"><div class="mentor-photo"><img src="assets/mentors/mr-k-muthusamy.jpg" alt="Mr. K. Muthusamy" loading="lazy"><span class="mentor-label">PROJECT MENTOR</span></div><div class="mentor-info"><span class="mentor-index">MENTOR / 02</span><h3>Mr. K. Muthusamy</h3><p>Guidance and support for the team's project journey.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section resources-section" id="resources"><div class="wrap"><div class="resources-panel reveal"><div class="resources-copy"><span class="section-kicker">08 / PROJECT RESOURCES</span><h2>Go deeper.<br><em>Explore the work.</em></h2><p>Review the team's presentation and case study for the problem framing, proposed architecture, feasibility, limitations and development roadmap.</p><div class="resource-note"><span>!</span><p>JalGuard is a proposed prototype. Detection limits, accuracy and field performance must be established through testing.</p></div></div><div class="resource-links"><a class="resource-card" href="assets/downloads/JalGuard-SIH26252-Presentation.pptx" download><span class="resource-icon">▤</span><span class="resource-copy"><small>POWERPOINT · SIH26252</small><strong>Project presentation</strong><em>Problem, system design and roadmap</em></span><span class="resource-arrow">↓</span></a><a class="resource-card" href="assets/downloads/JalGuard-Case-Study.docx" download><span class="resource-icon">▧</span><span class="resource-copy"><small>DOCUMENT · CASE STUDY</small><strong>Technical case study</strong><em>Methodology, validation and limitations</em></span><span class="resource-arrow">↓</span></a><a class="resource-card" href="#prototype"><span class="resource-icon">◫</span><span class="resource-copy"><small>VISUAL MATERIALS</small><strong>Prototype gallery</strong><em>Browse team-provided references</em></span><span class="resource-arrow">↗</span></a></div></div></div></section>
+
+    <section class="closing-cta"><div class="wrap closing-layout"><div><span class="section-kicker">JALGUARD / THE NEXT STEP</span><h2>Measure carefully.<br><em>Act responsibly.</em></h2></div><a href="#top" class="btn btn-primary">Back to top <span>↑</span></a><div class="closing-orb"></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="wrap footer-main"><a class="brand footer-brand" href="#top"><span class="brand-mark"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 3C18 13 8 22 8 31a16 16 0 0 0 32 0C40 22 30 13 24 3Z"/><path d="M16 31c1 5 4 8 9 9" class="brand-wave"/></svg></span><span class="brand-copy"><strong>JalGuard</strong><small>SMART WATER SURVEILLANCE</small></span></a><p>A field-screening concept for emerging contaminants in drinking water.</p><div class="footer-links"><a href="#challenge">Challenge</a><a href="#system">System</a><a href="#team">Team</a><a href="#mentors">Mentors</a><a href="#case-study">Case study</a><a href="#resources">Resources</a></div></div><div class="wrap footer-bottom"><span>© 2026 JalGuard · Team AQUARENEW</span><span>SIH26252 · Clean & Green Technology</span><span>Prototype under development</span></div></footer>
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button><img src="" alt="Expanded prototype image" id="lightboxImage"></div>
+  <script src="script.js"></script>
+</body>
+</html>
